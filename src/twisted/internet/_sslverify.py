@@ -1903,7 +1903,7 @@ defaultCiphers = OpenSSLAcceptableCiphers.fromOpenSSLCipherString(
     "ECDH+AES128:DH+AES:RSA+AESGCM:RSA+AES:"
     "!aNULL:!MD5:!DSS"
 )
-_defaultCurveName = u"prime256v1"
+_defaultCurveName = u"secp384r1"
 
 
 
